@@ -228,7 +228,7 @@ Praktikum Probabilitas dan Statistik
   
   #### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
   #### rataan
-  Pada distribusi Exponensial bersar rataan = lambda
+  Pada distribusi Exponensial besar rataan = lambda
   ```
   rataan=lambda
   rataan
