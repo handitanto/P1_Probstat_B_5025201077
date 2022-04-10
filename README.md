@@ -6,13 +6,15 @@ Praktikum Probabilitas dan Statistik
 
  ## 1. Disribusi Geometrik
  ```
-   x<-3
+  x<-3
   prob<-0.2
   ```
  #### a. Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ?
   ```
   dgeom(x,prob)
   ```
+  ![image](https://user-images.githubusercontent.com/94664744/162615695-d54e9a61-a10a-41b1-8685-5e5d003ccfc2.png)
+
   #### b. Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3
  
   set.seed(2)
