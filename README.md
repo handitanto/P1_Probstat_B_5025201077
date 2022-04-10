@@ -4,7 +4,7 @@ Praktikum Probabilitas dan Statistik
 Handitanto Herprasetyo
 5025201077
 
- 1. Disribusi Geometrik
+ ## 1. Disribusi Geometrik
   #### a. Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ?
   ```
   x<-3
@@ -34,13 +34,13 @@ Handitanto Herprasetyo
   
   ### e.  Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik
   
-  # rataan
+  ### rataan
   ```
   rataan<-1/prob
   rataan
   ```
 
-  # varian
+  #### varian
   ```
   varian<-(1-prob)/prob^2
   varian
