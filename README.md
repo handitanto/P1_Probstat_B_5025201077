@@ -41,6 +41,7 @@ Praktikum Probabilitas dan Statistik
   Jika dibandingkan hasil poin a = 0.1024 dan poin b =  0.1114001, maka bisa disimpulkan bahwa terdapat perbedaan hasil. Hal tersebut terjadi karena pada poin b dilakukan percobaan 10000 data random yang berpengaruh pada hasil akhir dari percobaan.
 
   #### d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+  Menampilkan grafik `distribusi`
   ```
   hist(distribusi)
   ```
@@ -62,7 +63,7 @@ Praktikum Probabilitas dan Statistik
   varian
   ```
   sehingga didapatkan hasil rataan dan
-  # ![image](https://user-images.githubusercontent.com/94664744/162616350-a3877459-4e1c-46b0-9e19-0e580020d033.png)
+  ## ![image](https://user-images.githubusercontent.com/94664744/162616350-a3877459-4e1c-46b0-9e19-0e580020d033.png)
   
   dan hasil varian
   # ![image](https://user-images.githubusercontent.com/94664744/162616373-858132d1-9d1e-44fa-904b-3405df064fbf.png)
@@ -83,6 +84,7 @@ Praktikum Probabilitas dan Statistik
   # ![image](https://user-images.githubusercontent.com/94664744/162616633-8f8f0f55-08cc-4b0d-b7a8-64a058b61353.png)
 
   #### b. Gambarkan grafik histogram berdasarkan kasus tersebut
+  Menampilkan grafik `sembuh`
   ```
   hist(sembuh)
   ```
@@ -103,7 +105,7 @@ Praktikum Probabilitas dan Statistik
   varian
   ``` 
   sehingga didapatkan hasil rataan
-  # ![image](https://user-images.githubusercontent.com/94664744/162616762-8d34efb0-a9f2-4019-8675-c00cc40ac983.png)
+  ## ![image](https://user-images.githubusercontent.com/94664744/162616762-8d34efb0-a9f2-4019-8675-c00cc40ac983.png)
 
   dan hasil varian
   # ![image](https://user-images.githubusercontent.com/94664744/162616789-dd96307d-0a73-4b0b-a732-52ee16994f38.png)
@@ -122,9 +124,14 @@ Praktikum Probabilitas dan Statistik
   # ![image](https://user-images.githubusercontent.com/94664744/162616846-92f1d66b-c10f-4755-aca5-9e2b9cc1b725.png)
 
   #### b. Simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
+  Menggunakan `rpois` untuk mencari simulasi kelahiran 6 bayi selama 1 tahun dengan `N=365`
   ```
-  
+  N <- 365
+  hisLahir <- rpois(N,lambda)
+  hist(hisLahir,main = "Grafik histogram distribusi poisson kelahiran 6 bayi selama 1 tahun")
   ```
+  sehingga didapatkan grafik
+  ![image](https://user-images.githubusercontent.com/94664744/162617553-8d71f290-8f6c-43dc-8d91-a89b0c9a83ca.png)
   
   #### c. Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
   ```
