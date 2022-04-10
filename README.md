@@ -38,14 +38,16 @@ Praktikum Probabilitas dan Statistik
 
   
   #### c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
+  ```
   Jika dibandingkan hasil poin a = 0.1024 dan poin b =  0.1114001, maka bisa disimpulkan bahwa terdapat perbedaan hasil. Hal tersebut terjadi karena pada poin b dilakukan percobaan 10000 data random yang berpengaruh pada hasil akhir dari percobaan.
+  ```
 
   #### d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
   Menampilkan grafik `distribusi`
   ```
   hist(distribusi)
   ```
-  dari syntax tersebut didapatkan grafik
+  didapatkan grafik
   # ![image](https://user-images.githubusercontent.com/94664744/162616225-242b365c-da09-4266-8326-aae979a272cd.png)
 
   #### e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik
@@ -63,7 +65,7 @@ Praktikum Probabilitas dan Statistik
   varian
   ```
   sehingga didapatkan hasil rataan dan
-  ## ![image](https://user-images.githubusercontent.com/94664744/162616350-a3877459-4e1c-46b0-9e19-0e580020d033.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616350-a3877459-4e1c-46b0-9e19-0e580020d033.png)
   
   dan hasil varian
   # ![image](https://user-images.githubusercontent.com/94664744/162616373-858132d1-9d1e-44fa-904b-3405df064fbf.png)
@@ -88,7 +90,7 @@ Praktikum Probabilitas dan Statistik
   ```
   hist(sembuh)
   ```
-  dari syntax tersebut didapatkan grafik
+  didapatkan grafik
   # ![image](https://user-images.githubusercontent.com/94664744/162616687-ba2797f2-3e60-418d-bfac-1cadf45c521a.png)
 
   #### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial
@@ -105,7 +107,7 @@ Praktikum Probabilitas dan Statistik
   varian
   ``` 
   sehingga didapatkan hasil rataan
-  ## ![image](https://user-images.githubusercontent.com/94664744/162616762-8d34efb0-a9f2-4019-8675-c00cc40ac983.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616762-8d34efb0-a9f2-4019-8675-c00cc40ac983.png)
 
   dan hasil varian
   # ![image](https://user-images.githubusercontent.com/94664744/162616789-dd96307d-0a73-4b0b-a732-52ee16994f38.png)
@@ -135,20 +137,24 @@ Praktikum Probabilitas dan Statistik
   
   #### c. Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
   ```
-  
+  Jika dibandingkan hasil poin a dan poin b terdapat perbedaan hasil. Hal tersebut dikarenakan simulasi yang dilakukan sebanyak 365 kali sehingga menghasilkan output   yang berbeda.
   ```
   
   #### d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson
   #### rataan
+  Pada Chi-Square besar rataan = varian = lambda
   ```
-  rataan = r
+  rataan = lambda
   rataan
   ```
   #### varian
   ```
-  varian = r
-  rataan
+  varian = rataan
+  varian
   ```
+  sehingga didapatkan hasil
+  # ![image](https://user-images.githubusercontent.com/94664744/162618344-fad296a6-d51a-4a8d-b5e2-f943f754d3c9.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162618377-b78b3567-7e10-4e83-9faa-0b87bd37de6a.png)
   
   ## 4. Distribusi Chi-Square
   ```
@@ -156,25 +162,40 @@ Praktikum Probabilitas dan Statistik
   v<-10
   ```
   #### a. Fungsi Probabilitas dari Distribusi Chi-Square
+  Menggunakan `pchisq` untuk mencari fungsi probabilitas Chi-Square
   ```
   probabilitas<-pchisq(x,v)
   probabilitas
   ```
+  sehingga didapatkan hasil
+  # ![image](https://user-images.githubusercontent.com/94664744/162618446-9d20d7d5-33be-4c72-b1a9-45e16a37b273.png)
+
   #### b. Histogram dari Distribusi Chi-Square dengan 100 data random
+  Menggunakan `rchisq` untuk mencari distribusi Chi-Square dengan 100 data random
   ```
-  histogram <- rchisq(100, v)
-  histogram
-  hist(histogram)
+  disChiSquare <- rchisq(100, v)
+  disChiSquare
+  hist(disChiSquare)
   ```
-  #### c. Nilai Rataan (μ) dan Varian (σ²) dari DistribusiChi-Square
+  sehingga didapatkan grafik
+  ![image](https://user-images.githubusercontent.com/94664744/162618647-eb0aaea2-0127-4446-8e3f-b5fbcc29fa48.png)
+
+  #### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square
   #### rataan
+  Pada distribusi Chi-Square besar rataan = v
   ```
   rataan=v
   rataan
   ```
   #### varian
+  dan besar varian = v*2
   ```
   varian = v*2
   varian
   ```
+  sehingga didapatkan hasil rataan
+  # ![image](https://user-images.githubusercontent.com/94664744/162618862-7efc57dd-503e-4435-ad43-e4bdac3d9c8e.png)
+  
+  dan hasil varian
+  # ![image](https://user-images.githubusercontent.com/94664744/162618907-324248a3-ed68-4eb9-aba2-5e5529a468d6.png)
 
