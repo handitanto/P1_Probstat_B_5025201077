@@ -24,7 +24,7 @@ hist(distribusi)
 rataan<-1/prob
 rataan
 
-#
+#varian
 varian<-(1-prob)/prob^2
 varian
 
@@ -105,8 +105,11 @@ hist(rexp(10000), main = "n = 10000")
 par(mfrow = c(1, 1))
 
 #c
+#rataan
 rataan = lambda
 rataan
+
+#varian
 varian = lambda*lambda
 varian
 
