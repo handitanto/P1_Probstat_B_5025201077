@@ -89,7 +89,7 @@ Praktikum Probabilitas dan Statistik
   
   #### c. Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
   
-  #### d. 
+  #### d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson
   #### rataan
   ```
   rataan = r
