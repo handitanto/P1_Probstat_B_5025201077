@@ -10,10 +10,13 @@ Praktikum Probabilitas dan Statistik
   prob<-0.2
   ```
  #### a. Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ?
+ 
+ #### Menggunakan `dgeom` untuk menghitung peluang bertemu dengan syntax
   ```
   dgeom(x,prob)
   ```
-  ![image](https://user-images.githubusercontent.com/94664744/162615695-d54e9a61-a10a-41b1-8685-5e5d003ccfc2.png)
+  #### sehingga didapatkan hasil
+  ![image](https://user-images.githubusercontent.com/94664744/162615954-3d7c8e56-5162-48ae-b82b-61f9c3abc211.png)
 
   #### b. Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3
  
@@ -31,6 +34,7 @@ Praktikum Probabilitas dan Statistik
   rata<-mean(distribusi)
   rata
   ```
+  
   #### c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 
   #### d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
