@@ -16,7 +16,7 @@ Praktikum Probabilitas dan Statistik
   dgeom(x,prob)
   ```
   sehingga didapatkan hasil
-  ![image](https://user-images.githubusercontent.com/94664744/162615954-3d7c8e56-5162-48ae-b82b-61f9c3abc211.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162615954-3d7c8e56-5162-48ae-b82b-61f9c3abc211.png)
 
   #### b. Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3
   ```
@@ -34,7 +34,7 @@ Praktikum Probabilitas dan Statistik
   rata
   ```
   sehingga didapatkan hasil
-  ![image](https://user-images.githubusercontent.com/94664744/162616150-78dbe9cd-8e22-45fe-a8ce-eec5c9a117bd.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616150-78dbe9cd-8e22-45fe-a8ce-eec5c9a117bd.png)
 
   
   #### c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
@@ -45,7 +45,7 @@ Praktikum Probabilitas dan Statistik
   hist(distribusi)
   ```
   dari syntax tersebut didapatkan grafik
-  ![image](https://user-images.githubusercontent.com/94664744/162616225-242b365c-da09-4266-8326-aae979a272cd.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616225-242b365c-da09-4266-8326-aae979a272cd.png)
 
   #### e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik
   
@@ -62,10 +62,10 @@ Praktikum Probabilitas dan Statistik
   varian
   ```
   sehingga didapatkan hasil rataan dan
-  ![image](https://user-images.githubusercontent.com/94664744/162616350-a3877459-4e1c-46b0-9e19-0e580020d033.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616350-a3877459-4e1c-46b0-9e19-0e580020d033.png)
   
   dan hasil varian
-  ![image](https://user-images.githubusercontent.com/94664744/162616373-858132d1-9d1e-44fa-904b-3405df064fbf.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616373-858132d1-9d1e-44fa-904b-3405df064fbf.png)
   
   
   ## 2. Distribusi Binomial
@@ -80,14 +80,14 @@ Praktikum Probabilitas dan Statistik
   sembuh
   ```
   sehingga didapatkan hasil
-  ![image](https://user-images.githubusercontent.com/94664744/162616633-8f8f0f55-08cc-4b0d-b7a8-64a058b61353.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616633-8f8f0f55-08cc-4b0d-b7a8-64a058b61353.png)
 
   #### b. Gambarkan grafik histogram berdasarkan kasus tersebut
   ```
   hist(sembuh)
   ```
   dari syntax tersebut didapatkan grafik
-  ![image](https://user-images.githubusercontent.com/94664744/162616687-ba2797f2-3e60-418d-bfac-1cadf45c521a.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616687-ba2797f2-3e60-418d-bfac-1cadf45c521a.png)
 
   #### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial
   #### rataan
@@ -103,10 +103,10 @@ Praktikum Probabilitas dan Statistik
   varian
   ``` 
   sehingga didapatkan hasil rataan
-  ![image](https://user-images.githubusercontent.com/94664744/162616762-8d34efb0-a9f2-4019-8675-c00cc40ac983.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616762-8d34efb0-a9f2-4019-8675-c00cc40ac983.png)
 
   dan hasil varian
-  ![image](https://user-images.githubusercontent.com/94664744/162616789-dd96307d-0a73-4b0b-a732-52ee16994f38.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616789-dd96307d-0a73-4b0b-a732-52ee16994f38.png)
   
   ## 3. Distribusi Poisson
   ```
@@ -119,7 +119,7 @@ Praktikum Probabilitas dan Statistik
   lahir
   ```
   sehingga didapatkan hasil
-  ![image](https://user-images.githubusercontent.com/94664744/162616846-92f1d66b-c10f-4755-aca5-9e2b9cc1b725.png)
+  # ![image](https://user-images.githubusercontent.com/94664744/162616846-92f1d66b-c10f-4755-aca5-9e2b9cc1b725.png)
 
   #### b. Simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
   ```
