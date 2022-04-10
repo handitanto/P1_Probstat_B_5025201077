@@ -199,3 +199,49 @@ Praktikum Probabilitas dan Statistik
   dan hasil varian
   # ![image](https://user-images.githubusercontent.com/94664744/162618907-324248a3-ed68-4eb9-aba2-5e5529a468d6.png)
 
+
+  ## 5. Distribusi Exponensial
+  ```
+  lambda = 3
+  ```
+  #### a. Fungsi Probabilitas dari Distribusi Exponensial
+  Menggunakan `dexp` untuk mencari fungsi probabilitas Exponensial
+  ```
+  dexp(lambda)
+  ```
+  sehingga didapatkan hasil
+  # ![image](https://user-images.githubusercontent.com/94664744/162619256-47b6f4cb-cdc5-4399-b3b8-c4042d95ada1.png)
+
+  #### b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+  Menggunakan `par` untuk menampilkan grafik dengan bilangan random
+  ```
+  par(mfrow = c(2, 2))
+  set.seed(1)
+  hist(rexp(10), main = "n = 10")
+  hist(rexp(100), main = "n = 100")
+  hist(rexp(1000), main = "n = 1000")
+  hist(rexp(10000), main = "n = 10000")
+  par(mfrow = c(1, 1))
+  ```
+  sehingga didapatkan grafik
+  # ![image](https://user-images.githubusercontent.com/94664744/162619485-1d5ee51d-4ab0-497c-a4b4-45814064b1e8.png)
+  
+  #### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
+  #### rataan
+  Pada distribusi Exponensial bersar rataan = lambda
+  ```
+  rataan=lambda
+  rataan
+  ```
+  #### varian
+  dan besar varian = lambda^2
+  ```
+  varian=lambda^2
+  varian
+  ```
+  sehingga didapatkan hasil rataan
+  # ![image](https://user-images.githubusercontent.com/94664744/162619682-3542c49a-5a83-44ab-9232-582528d6dc6e.png)
+  
+  dan hasil varian
+  # ![image](https://user-images.githubusercontent.com/94664744/162619696-4aed4a89-e20c-4dcd-ba5c-680bb300d5df.png)
+
